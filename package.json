@@ -2,10 +2,10 @@
 	"name": "chat-app",
 	"version": "1.0.0",
 	"description": "",
-	"main": "server.cjs",
+	"main": "server.js",
 	"scripts": {
-		"server": "node backend/server.cjs",
-		"start": "node backend/server.cjs",
+		"server": "node backend/server.js",
+		"start": "node backend/server.js",
 		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
 	},
 	"type": "module",
